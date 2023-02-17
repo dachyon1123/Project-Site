@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  font-family: 'Tangerine', cursive;
+}
+
+h2 {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.bottom-container {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.middle-container {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #B9F3FC;
+  position: relative;
+}
+
+
+.cloud2 {
+  position: absolute;
+  left: 650px;
+  top: 200px;
+}
+
+.topcloud {
+  position: absolute;
+  top: 25px;
+  right: 650px;
+}
