@@ -2,34 +2,126 @@ body {
   margin: 0px;
   text-align: center;
   font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+a {
+  color: #11999E;
 }
 
 h1 {
+  color: #66BFBF;
   margin: 0px;
   font-family: 'Tangerine', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
 }
 
 h2 {
+  color: #66BFBF;
   margin: 0px;
   font-family: 'Raleway', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
 }
 
 h3 {
   margin: 0px;
   font-family: 'Raleway', sans-serif;
+  color: #11999E;
+  font-weight: bolder;
 }
 
+hr {
+  border: none;
+  border-bottom-style: dotted;
+  width: 3%;
+  border-width: 7px;
+  margin: 100px auto 100px auto;
+  color: #b8b8b8;
+}
+
+/***************Classes**********************/
 
 .bottom-container {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #66BFBF;
+  margin-top: 100px;
 }
 
+.cloudbottom {
+  position: absolute;
+  left: 650px;
+  top: 300px;
+}
+
+.cloudtop {
+  position: absolute;
+  top: 40px;
+  right: 650px;
+}
+
+.codinggif {
+  height: 20%;
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contact-me {
+  padding: 50p  x;
+}
+
+.footer-link {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.get-in-touch {
+  margin: 50px auto 50px auto;
+}
+
+.get-in-touch-description {
+  margin: 50px auto 50px auto;
+}
+
+.get-in-touch-second-description {
+  margin: 50px auto 50px auto;
+}
+
+.hr-bottom {
+  border: none;
+  border-bottom-style: dotted;
+  width: 3%;
+  border-width: 7px;
+  margin: 50px auto 50px auto;
+  color: #b8b8b8;
+}
+
+
 .middle-container {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  margin-bottom: 30px;
+}
+
+
+.profpic {
+  width: 12%;
+  height: 12%;
+  margin: 10px;
+}
+
+.signature {
+  color: white;
+  font-size: 70%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .top-container {
@@ -38,15 +130,37 @@ h3 {
   position: relative;
 }
 
-
-.cloud2 {
-  position: absolute;
-  left: 650px;
-  top: 200px;
+.videogamegif {
+  height: 20%;
+  width: 20%;
+  float: right;
+  margin-left: 30px;
 }
 
-.topcloud {
-  position: absolute;
-  top: 25px;
-  right: 650px;
+
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
